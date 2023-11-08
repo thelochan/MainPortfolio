@@ -952,3 +952,26 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
+.skills-content.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Adjust the space between tags as needed */
+}
+
+.skill-tag {
+  display: inline-block;
+  background-color: #007bff; /* Your primary color */
+  color: white;
+  padding: 6px 12px;
+  margin: 4px;
+  font-size: 14px;
+  border-radius: 16px; /* Rounded corners for pill effect */
+  cursor: default;
+  transition: background-color 0.3s;
+}
+
+.skill-tag:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
